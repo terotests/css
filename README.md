@@ -1,6 +1,10 @@
 # CSS.js
 
-Simple usage:
+Test with
+```
+<div class="moro"/> 
+```
+Then write
 ```javascript
 css().bind(".moro", {
   width : "100px",
