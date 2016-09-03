@@ -638,7 +638,7 @@
                   e = v.substring(end);
               var str = "";
               ["-webkit-", "", "-moz-", "-o-"].forEach(function (p) {
-                str += n + " : " + s + " " + p + gradString + e + ";\n";
+                str += n + " : " + s + " " + p + gradString + e + " !important;\n";
               });
             }
           }
@@ -646,7 +646,7 @@
           if (_conversions[n]) {
             str = _conversions[n](n, v);
           } else {
-            str += n + " : " + v + ";\n";
+            str += n + " : " + v + " !important;\n";
           }
           return str;
         };
@@ -743,19 +743,19 @@
 
           bexp = function (p, v) {
             var str = "";
-            str += "-o-" + p + ":" + v + ";\n";
-            str += "-moz-" + p + ":" + v + ";\n";
-            str += "-webkit-" + p + ":" + v + ";\n";
-            str += p + ":" + v + ";\n";
+            str += "-o-" + p + ":" + v + " !important;\n";
+            str += "-moz-" + p + ":" + v + " !important;\n";
+            str += "-webkit-" + p + ":" + v + " !important;\n";
+            str += p + ":" + v + " !important;\n";
             return str;
           };
 
           bexp2 = function (p, v) {
             var str = "";
-            str += "-o-" + p + ":" + "-o-" + v + ";\n";
-            str += "-moz-" + p + ":" + "-moz-" + v + ";\n";
-            str += "-webkit-" + p + ":" + "-webkit-" + v + ";\n";
-            str += p + ":" + v + ";\n";
+            str += "-o-" + p + ":" + "-o-" + v + " !important;\n";
+            str += "-moz-" + p + ":" + "-moz-" + v + " !important;\n";
+            str += "-webkit-" + p + ":" + "-webkit-" + v + " !important;\n";
+            str += p + ":" + v + " !important;\n";
             return str;
           };
 
@@ -772,7 +772,7 @@
               return bexp(n, v);
             },
             "transition": function transition(n, v) {
-              return bexp2(n, v);
+              return bexp(n, v);
             },
             "filter": function filter(n, v) {
               return bexp(n, v);
