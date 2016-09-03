@@ -49,4 +49,6 @@ css().animation("viewIn", {
 [Try in CodePen] (http://codepen.io/teroktolonen/pen/LRYvGr)
 
 
+## License
 
+MIT.
