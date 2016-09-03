@@ -1,5 +1,7 @@
 # CSS.js
 
+A library to quickly create CSS and animations with JavaScript.
+
 Test with
 ```html
 <div class="moro"/> 
