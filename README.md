@@ -44,7 +44,7 @@ css().animation("viewIn", {
 },  outPosition,  inPosition); 
 ```
 
-[Try in CodePen] (http://codepen.io/teroktolonen/pen/LRYvGrG)
+[Try in CodePen] (http://codepen.io/teroktolonen/pen/LRYvGr)
 
 
 
