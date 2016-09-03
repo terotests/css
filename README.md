@@ -51,4 +51,4 @@ css().animation("viewIn", {
 
 ## License
 
-MIT.
+MIT. Or whatever you need.
