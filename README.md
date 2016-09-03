@@ -1,7 +1,7 @@
 # CSS.js
 
 Test with
-```
+```html
 <div class="moro"/> 
 ```
 Then write
@@ -22,7 +22,7 @@ css().bind(".moro:hover", {
 ## Animation
 
 Having above example, but adding a class
-```
+```html
 <div class="moro viewIn"/> 
 ```
 
