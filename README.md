@@ -12,6 +12,35 @@ css().bind(".moro:hover", {
         "background" : "linear-gradient(#666, #333)"
     });
 
-````
+```
+[Code above in Codepen] (http://codepen.io/teroktolonen/pen/wzvkKG)
+
+## Animation
+
+Having above example, but adding a class
+```
+<div class="moro viewIn"/> 
+```
+
+Then:
+
+```javascript
+var inPosition = {
+    "transform" : "translate(0,0)",
+    
+};
+var outPosition = {
+    "transform" : "translate(-130px,0px) rotate(90deg)",
+    "opacity" : 0
+};
+
+css().animation("viewIn", {
+    duration : "1s",
+    "iteration-count" : 1,
+},  outPosition,  inPosition); 
+```
+
+[Try in CodePen] (http://codepen.io/teroktolonen/pen/LRYvGrG)
+
 
 
