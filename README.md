@@ -48,6 +48,12 @@ css().animation("viewIn", {
 
 [Try in CodePen] (http://codepen.io/teroktolonen/full/LRYvGr)
 
+## Gradient animation
+
+Simple gradient animation is possible if you have two gradients and animate their opacity
+
+[Try in CodePen] (http://codepen.io/teroktolonen/full/rraaZG/)
+
 ## Browser compatibility testing
 
 Feedback is welcome. On the desktop browsers the limit goes on IE9, basic features work but not animations. IE10+ also animations work, so that's approximately the browser compatibility limit on desktop. On mobile at least Android 4.1 and 2.3 seems to work. On 2.2 the Codepen did not work :(. iOS 5 & 4 & 3 seem to work.
