@@ -19,7 +19,7 @@ css().bind(".moro:hover", {
     });
 
 ```
-[Code above in Codepen] (http://codepen.io/teroktolonen/pen/wzvkKG)
+[Code above in Codepen] (http://codepen.io/teroktolonen/full/wzvkKG)
 
 ## Animation
 
@@ -46,7 +46,7 @@ css().animation("viewIn", {
 },  outPosition,  inPosition); 
 ```
 
-[Try in CodePen] (http://codepen.io/teroktolonen/pen/LRYvGr)
+[Try in CodePen] (http://codepen.io/teroktolonen/full/LRYvGr)
 
 
 ## License
