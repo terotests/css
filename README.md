@@ -1,6 +1,6 @@
 # CSS.js
 
-A library to quickly create CSS and animations with JavaScript.
+A library to quickly create CSS and animations with JavaScript without CSS files.
 
 Test with
 ```html
