@@ -46,13 +46,13 @@ css().animation("viewIn", {
 },  outPosition,  inPosition); 
 ```
 
-[Try in CodePen] (http://codepen.io/teroktolonen/full/LRYvGr)
+[Try in CodePen](http://codepen.io/teroktolonen/full/LRYvGr)
 
 ## Gradient animation
 
 Simple gradient animation is possible if you have two gradients and animate their opacity
 
-[Try in CodePen] (http://codepen.io/teroktolonen/full/rraaZG/)
+[Try in CodePen](http://codepen.io/teroktolonen/full/rraaZG/)
 
 ## Browser compatibility testing
 
