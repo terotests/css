@@ -19,7 +19,7 @@ css().bind(".moro:hover", {
     });
 
 ```
-[Code above in Codepen] (http://codepen.io/teroktolonen/full/wzvkKG)
+[Code above in Codepen](http://codepen.io/teroktolonen/full/wzvkKG)
 
 ## Animation
 
